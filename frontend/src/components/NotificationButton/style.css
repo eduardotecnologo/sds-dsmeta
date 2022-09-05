@@ -1,0 +1,14 @@
+.edumeta-red-btn{
+    height: 45px;
+    width: 45px;
+    background: #ff6b721a;
+    border: 1px solid #ff6b72;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.edumeta-red-btn img{
+    width: 19px;
+}
