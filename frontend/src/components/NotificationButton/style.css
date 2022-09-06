@@ -12,3 +12,8 @@
 .edumeta-red-btn img{
     width: 19px;
 }
+.edumeta-form-control-container {
+    margin-bottom: 16px;
+    max-width: 300px;
+  }
+  
