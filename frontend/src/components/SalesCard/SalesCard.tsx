@@ -1,6 +1,8 @@
 import './style.css';
-import icon from '../../assets/img/icon-notification.svg';  
 import { NotificationButton } from '../NotificationButton';
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+
 
 export function SalesCard(){
     return(
@@ -8,10 +10,20 @@ export function SalesCard(){
             <h2 className="edumeta-sales-title">Vendas</h2>
             <div>
               <div className="edumeta-form-control-container">
-                <input className="edumeta-form-control" type="text" />
-              </div>
-              <div className="edumeta-form-control-container">
-                <input className="edumeta-form-control" type="text" />
+                <DatePicker
+                        selected={new Date()}
+                        onChange={(date: Date) => {}}
+                        className="edumeta-form-control"
+                        dateFormat="dd/MM/yyyy"
+                />
+                </div>
+                <div className="edumeta-form-control-container">
+                <DatePicker
+                        selected={new Date()}
+                        onChange={(date: Date) => {}}
+                        className="edumeta-form-control"
+                        dateFormat="dd/MM/yyyy"
+                />
               </div>
             </div>
 
