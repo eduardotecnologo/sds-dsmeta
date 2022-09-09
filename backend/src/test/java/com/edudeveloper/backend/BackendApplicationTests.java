@@ -1,10 +1,10 @@
-package com.edudeveloper.appmetas;
+package com.edudeveloper.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AppmetasApplicationTests {
+class BackendApplicationTests {
 
 	@Test
 	void contextLoads() {

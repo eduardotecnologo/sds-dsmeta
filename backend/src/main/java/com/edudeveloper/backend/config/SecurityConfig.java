@@ -1,4 +1,4 @@
-package com.edudeveloper.appmetas.config;
+package com.edudeveloper.backend.config;
 
 import java.util.Arrays;
 
